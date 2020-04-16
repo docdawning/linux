@@ -91,9 +91,9 @@ DEVICE(moto_modem, MOTO_IDS);
 	{ USB_DEVICE(0x0cad, 0x9016) }	/* TPG2200 */
 DEVICE(motorola_tetra, MOTOROLA_TETRA_IDS);
 
-/* Novatel Wireless GPS driver */
+/* NovAtel GPS/GNSS/SPAN sensor driver */
 #define NOVATEL_IDS()			\
-	{ USB_DEVICE(0x09d7, 0x0100) }	/* NovAtel FlexPack GPS */
+	{ USB_DEVICE(0x09d7, 0x0100) }	/* NovAtel GPS/GNSS/SPAN Sensor */
 DEVICE_N(novatel_gps, NOVATEL_IDS, 3);
 
 /* HP4x (48/49) Generic Serial driver */
