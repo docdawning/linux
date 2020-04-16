@@ -66,7 +66,7 @@ config USB_SERIAL_SIMPLE
 		- Libtransistor USB console
 		- a number of Motorola phones
 		- Motorola Tetra devices
-		- Novatel Wireless GPS receivers
+		- NovAtel GNSS/SPAN (GPS, etc) sensors
 		- Siemens USB/MPI adapter.
 		- ViVOtech ViVOpay USB device.
 		- Infineon Modem Flashloader USB interface
